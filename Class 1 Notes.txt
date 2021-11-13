@@ -1,0 +1,35 @@
+
+- assertion using jmeter
+- correlation
+- recording----->blazemeter
+- API testing
+- Perfmon
+- Reporting
+- pacing
+- writing result in local file (.csv)
+- file upload
+- Bean shell
+- Parameterization---logging application simultaneously using different credentials
+- volume testing scenario
+
+
+-----------------------------------------------------------------------------
+
+
+Jmeter
+
+- open source performance testing tool
+- community support
+- web based application
+- easy to install and portable
+
+
+Pre Requisite:
+- install java
+- download jmeter from https://jmeter.apache.org/download_jmeter.cgi
+- unzip jmeter folder
+- go to folder location "apache-jmeter-5.4.1\apache-jmeter-5.4.1\bin" and click on jmeter.bat for window user
+
+
+
+Test Plan
