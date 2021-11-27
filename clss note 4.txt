@@ -1,0 +1,44 @@
+1) Distributed 
+2) Database
+3) pacing
+4) Perfmon
+
+spidering, fuzzing, DDOS
+
+-----------------
+
+
+why?
+
+1) 1000 user due to infra or hardware user
+to simulate user load which jmeter client machine is not able to handle due to hardware limitation
+2)to generate uer load from different geographies to get realistic result
+
+
+pre req
+1) master and slave must have same version of jmeter installed
+2) master and slave must have java installed on them
+3) same subnet
+
+
+
+
+
+jmeter -n -t "" -l "" -R 192.168.0.108
+
+
+
+perfmon
+
+
+
+
+
+
+
+
+
+
+
+
+
