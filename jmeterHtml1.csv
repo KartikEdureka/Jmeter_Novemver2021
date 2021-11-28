@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1638034704999,2753,HTTP Request,200,OK,Thread Group 1-1,text,true,,85935,135,1,1,https://en.wikipedia.org/wiki/Main_Page,2491,0,2310
+1638034708125,1239,Random Clicks,200,OK,Thread Group 1-1,text,true,,348115,134,1,1,https://en.wikipedia.org/wiki/Carillon,985,0,0
+1638034710409,190,Random Clicks,200,OK,Thread Group 1-1,text,true,,348007,134,1,1,https://en.wikipedia.org/wiki/Carillon,79,0,0
+1638034711467,253,Random Clicks,200,OK,Thread Group 1-1,text,true,,670159,135,1,1,https://en.wikipedia.org/wiki/Greenland,79,0,0
+1638034717970,724,Random Clicks,200,OK,Thread Group 1-1,text,true,,97862,146,1,1,https://en.wikipedia.org/wiki/Tourism_in_Greenland,718,0,0
+1638034718776,872,Random Clicks,200,OK,Thread Group 1-1,text,true,,27910,226,1,1,https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=Tourism_in_Greenland&id=1017890688&wpFormIdentifier=titleform,871,0,0
+1638034719667,1529,Random Clicks,200,OK,Thread Group 1-1,text,true,,23053,140,1,1,https://en.wikipedia.org/wiki/Special:MyTalk,1529,0,0
+1638034721211,84,Random Clicks,200,OK,Thread Group 1-1,text,true,,89824,154,1,1,https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer,80,0,0
+1638034721337,93,Random Clicks,200,OK,Thread Group 1-1,text,true,,89824,154,1,1,https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer,89,0,0
+1638034721474,432,Random Clicks,200,OK,Thread Group 1-1,text,true,,45237,161,1,1,https://en.wikipedia.org/wiki/Wikipedia:Non-Wikipedia_disclaimers,431,0,0
+1638034721923,82,Random Clicks,200,OK,Thread Group 1-1,text,true,,41984,138,1,1,https://en.wikipedia.org/wiki/Bartleby.com,79,0,0

@@ -1,0 +1,12 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1638065760263,13715,HTTP Request,200,OK,Thread Group 1-1,text,true,,86474,135,1,1,https://en.wikipedia.org/wiki/Main_Page,13419,0,13201
+1638065775109,824,Random Clicks,200,OK,Thread Group 1-1,text,true,,44649,149,1,1,https://en.wikipedia.org/wiki/Special:MyContributions,784,0,0
+1638065776370,118,Random Clicks,200,OK,Thread Group 1-1,text,true,,56542,146,1,1,https://en.wikipedia.org/wiki/Wikipedia:Contact_us,92,0,0
+1638065777060,131,Random Clicks,200,OK,Thread Group 1-1,text,true,,84573,204,1,1,https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License,83,0,0
+1638065777466,1695,Random Clicks,200,OK,Thread Group 1-1,text,true,,187065,147,1,1,https://en.wikipedia.org/wiki/Special:RecentChanges,1587,0,0
+1638065779785,95,Random Clicks,200,OK,Thread Group 1-1,text,true,,26093,144,1,1,https://en.wikipedia.org/wiki/User:Tomsmucenieks,93,0,0
+1638065780009,113,Random Clicks,200,OK,Thread Group 1-1,text,true,,116120,154,1,1,https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard,91,0,0
+1638065780709,188,Random Clicks,200,OK,Thread Group 1-1,text,true,,179261,152,1,1,https://en.wikipedia.org/wiki/Wikipedia:Non-free_content,96,0,0
+1638065781647,175,Random Clicks,200,OK,Thread Group 1-1,text,true,,179193,152,1,1,https://en.wikipedia.org/wiki/Wikipedia:Non-free_content,88,0,0
+1638065782646,198,Random Clicks,200,OK,Thread Group 1-1,text,true,,332606,142,1,1,https://en.wikipedia.org/wiki/Associated_Press,82,0,0
+1638065786684,257,Random Clicks,200,OK,Thread Group 1-1,text,true,,643860,144,1,1,https://en.wikipedia.org/wiki/The_New_York_Times,87,0,0

@@ -21,10 +21,74 @@ pre req
 3) same subnet
 
 
+configurations:
+
+Jmeter.properties file and we need to make certain configurations
+1) Search Remote Hosts
+2) We need to add ip addresses in out Jmeter.properties file
+4) click on  .bat file "create-rmi-keystore"  apache-jmeter-5.3\apache-jmeter-5.3\bin
+5) Generate .jks in master and plave it in all slave machine bin folder
+
+
+jmeter -n -t "F:\Jmeter_Batch_November2021\Database Test Plan.jmx" -l "F:\Jmeter_Batch_November2021" -R 192.168.0.108
+
+jmeter -n -t "F:\Jmeter_Batch_November2021\Database Test Plan1.jmx" -l "F:\Jmeter_Batch_November2021" -R 192.168.0.109
+jmeter -n -t "F:\Jmeter_Batch_November2021\Database Test Plan2.jmx" -l "F:\Jmeter_Batch_November2021" -R 192.168.0.110
 
 
 
-jmeter -n -t "" -l "" -R 192.168.0.108
+
+
+
+Volume testing
+
+- include JDBC connection configurations
+- configure database string ,include in configuration page
+- install jdbc driver from plugin manager
+- add jdbc sampler to the test case
+
+
+
+Pacing
+-
+
+
+
+-----------------------
+
+Perfmon
+
+- Pre requisites
+
+1) Install perfmon plugin
+2) Jmeter.properties ->add ip address of the server
+for eg:  remote_hosts=localhost:3306
+3) download server agent from below mentioned dite
+https://github.com/undera/perfmon-agent/blob/master/README.md
+
+4) Place server agent in your server machine and start it
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100
+
+20
+40
+40
+
 
 
 

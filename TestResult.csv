@@ -1,0 +1,5 @@
+test case is passed1637380540326,907,Sample 1,200,OK,Thread Group 1-1,text,true,,17534,119,1,1,http://www.google.com/,406,0,179
+1637380541265,4804,Sample 2,200,OK,Thread Group 1-1,text,true,,244823,524,1,1,https://www.google.com/preferences?hl=en,390,0,0
+1637380541265,391,Sample 2-0,302,Found,Thread Group 1-1,text,true,,942,252,1,1,http://www.google.com/setprefs?sig=0_nd6r3ji-ItGEj5Y7nFqTGBZ76yg%3D&amp;hl=bn&amp;source=homepage&amp;sa=X&amp;ved=0ahUKEwihgMzphab0AhUTklYBHb3nCfkQ2ZgBCAY,390,0,0
+1637380541661,104,Sample 2-1,301,Moved Permanently,Thread Group 1-1,text,true,,564,136,1,1,http://www.google.com/preferences?hl=en,104,0,0
+1637380541767,4302,Sample 2-2,200,OK,Thread Group 1-1,text,true,,243317,136,1,1,https://www.google.com/preferences?hl=en,3997,0,3778

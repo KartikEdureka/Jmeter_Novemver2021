@@ -1,0 +1,98 @@
+Jenkins
+F:\apache-jmeter-5.3\apache-jmeter-5.3\bin\jmeter.bat -n -t F:\Jmeter_Batch_November2021\Assertion_eg1.jmx
+
+
+Html report
+jmeter -n -t F:\Jmeter_Batch_November2021\Spidering.jmx -l F:\Jmeter_Batch_November2021\jmeterHtml2.csv -e -o F:\Jmeter_Batch_November2021\HtmlReport2
+
+
+
+//*[@id="email"]
+//*[@id="u_0_d_DK"]
+
+
+
+Case Studies
+
+
+case 1:
+1) With 5 users, all users hitting server at same time---->done
+2) Users are visiting 3 pages---->done
+3) Before going to each page we need to have waiting time---->done
+4) My url could be changed in future--->done
+5) Generate tabular report and graph aswell--->
+
+
+
+case 2:
+1- 10 user, all user are hitting server in span of 1 min---->done
+2- User are visiting 3 pages--->done
+3- All user hitting pages at same time---->using synchronising timer
+4- My url could be changed in future---> http defaults
+5- verify all request should perform its task within 5 seconds else make it fail with reason---->duration assertion
+6- We should not Get error or warning text in response----->Response Assertion
+7-  generate tabular report--->tree summary
+
+
+case 3:
+
+1- With 10 users all user hitting server in same time span of 2 min---->
+2- User are visiting 3 pages
+3- All user hitting pages at same time
+4- My url could be changed in future
+5- Store all data which is coming from server for future reference---->Simple Writer file will be saved in csv format
+6- We should not Get error or warning text in response
+7-  generate tabular report
+
+
+
+
+
+
+
+Selenium Integration with Jmeter
+
+
+- Webdriver plugin
+- Chrome driver
+
+
+1) Go to Jmeter Plugin manager and select Selenium WebDriver Support
+2) Do not forget to restart jmeter
+
+
+
+
+
+
+NFR
+
+1) test application with 5000 users
+2) test the performance of the application
+
+
+
+test application with concurrent users   100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
